@@ -181,6 +181,7 @@ export const managers = [
     },
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "853026676387446784",
       "name": "Troy Gamache",
 //       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Attleboro, MA", // (optional)
@@ -203,6 +204,7 @@ export const managers = [
     },
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : "927357523773001728",
       "name": "Dean Johnson",
 //       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Central Falls, RI", // (optional)
