@@ -28,7 +28,7 @@
 
 <div class="main">
     <h4>
-        Hut, Hut, Blue 404!
+        Hut, Hut, Green 18!
     </h4>
     <div class='footballHolder'>
         <img class='football' src='/deflated-football.png' alt='deflated football' />
