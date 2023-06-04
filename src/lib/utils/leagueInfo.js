@@ -66,7 +66,7 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : "681000226114334720",
+      "managerID" : "680999002182864896",
       "name": "Shawn Hughes",
 //       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "East Providence, RI", // (optional)
@@ -89,7 +89,7 @@ export const managers = [
     },
   {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : "719038316221104128",
+      "managerID" : "717978065552109568",
       "name": "Jacob Summerly",
 //       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Seekonk, MA", // (optional)
