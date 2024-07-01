@@ -227,6 +227,7 @@ export const managers = [
     },
     {
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : 938194729043324928,
       "name": "Robert Lopatka",
 //      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Smithfield, RI", // (optional)
@@ -249,6 +250,7 @@ export const managers = [
     },
     {
       "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : 941784831560712192
       "name": "Katie LeFort",
 //       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "San Diego, CA", // (optional)
@@ -269,28 +271,29 @@ export const managers = [
       "tradingScale": 1, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-//     {
-//       "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-//       "name": "Thomas Arsenault",
+    {
+      "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "managerID" : 853151951733506048,
+      "name": "Thomas Arsenault",
 //       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-//       "location": "Pawtucket, RI", // (optional)
+      "location": "Pawtucket, RI", // (optional)
 //       "bio": "I do not care about this corrupted/colluded league I'm just having fun.",
 //       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
 //       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-//       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-//       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-//       "rival": {
-//         name: "Troy Gamache", // Can be anything (usually your rival's name)
-//         link: 8, // manager array number within this array, or null to link back to all managers page
+      "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+      "rival": {
+        name: "Troy Gamache", // Can be anything (usually your rival's name)
+        link: 8, // manager array number within this array, or null to link back to all managers page
 //         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
 //       },
-//       "favoritePlayer": 7611, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-//       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-//       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "favoritePlayer": 7611, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
 //       "philosophy": "Trade central",
-//       "tradingScale": 50, // 1 - 10
-//       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-//     },
+      "tradingScale": 50, // 1 - 10
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
   ]
   
   
