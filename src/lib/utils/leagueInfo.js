@@ -293,7 +293,7 @@ export const managers = [
       "philosophy": "Trade central",
       "tradingScale": 50, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
+    }
   ]
   
   
